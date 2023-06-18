@@ -5,9 +5,9 @@ A Tabela possui chaves inteiras e não aceita duplicatas, colisões são tratada
 
 ## Índice
 
-* [Estrutura]
-* [Descrição]
-* [Contato]
+* [Estrutura](estrutura)
+* [Descrição](descrição)
+* [Contato](contato)
 
 ## Estrutura
 
@@ -40,4 +40,4 @@ Onde o tamanho da Tabela é 3, e possui os elementos 0, 1 e 10.
 ## Contato
 
 * GitHub: [helomendes](https://github.com/helomendes)
-* E-mail UFPR: heloisamendes@ufpr.br
+* E-mail: heloisabmendes@gmail.com
