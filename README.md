@@ -33,13 +33,13 @@ O trabalho está dividido em 4 arquivos:
 
 * imprimir - Imprime na saída padrão a Tabela Hash completa, conforme o exemplo:
 
-0 [0] -> [10] -> NULL
+  0 [0] -> [10] -> NULL
 
-1 [1] -> NULL
+  1 [1] -> NULL
 
-2 NULL
+  2 NULL
 
-Onde o tamanho da Tabela é 3, e possui os elementos 0, 1 e 10.
+  Onde o tamanho da Tabela é 3, e possui os elementos 0, 1 e 10.
 
 ## Contato
 
