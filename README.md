@@ -5,9 +5,9 @@ A Tabela possui chaves inteiras e não aceita duplicatas, colisões são tratada
 
 ## Índice
 
-* [Estrutura](estrutura)
-* [Descrição](descrição)
-* [Contato](contato)
+* [Estrutura]
+* [Descrição]
+* [Contato]
 
 ## Estrutura
 
@@ -32,9 +32,13 @@ O trabalho está dividido em 4 arquivos:
 * excluir - Neste caso, a função de busca é usada ainda no main.c, para então, caso esta retorne um nodo, chamar a função excluir para ele, ou então imprimir erro. Excluir trata os 3 casos de exclusão: exclusão do primeiro item da lista, de um item que se encontra no meio dela, e do último elemento da lista. Retorna void.
 
 * imprimir - Imprime na saída padrão a Tabela Hash completa, conforme o exemplo:
+
 0 [0] -> [10] -> NULL
+
 1 [1] -> NULL
+
 2 NULL
+
 Onde o tamanho da Tabela é 3, e possui os elementos 0, 1 e 10.
 
 ## Contato
