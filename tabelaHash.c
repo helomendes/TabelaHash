@@ -83,7 +83,7 @@ struct nodoHash* inserir(struct nodoHash* tabelaHash[], size_t tamTabela, int ch
 
 void liberarTabelaHash(struct nodoHash* tabelaHash[], size_t tamTabela){
     struct nodoHash* aux;
-    for (int i = 0; i < tamTabela; i++) {
+    for (size_t i = 0; i < tamTabela; i++) {
         aux = tabelaHash[i];
         while(aux && aux->prox) {
             aux = aux->prox;
@@ -96,8 +96,8 @@ void liberarTabelaHash(struct nodoHash* tabelaHash[], size_t tamTabela){
 
 void imprimirTabelaHash(struct nodoHash* tabelaHash[], size_t tamTabela){
     struct nodoHash* aux;
-    for (int k = 0; k < tamTabela; k++) {
-        printf("%d ", k);
+    for (size_t k = 0; k < tamTabela; k++) {
+        printf("%ld ", k);
         aux = tabelaHash[k];
         while(aux) {
             printf("[%d] -> ", aux->chave);

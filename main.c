@@ -7,6 +7,12 @@ int main(){
 
     size_t tamTabela;
     scanf("%ld", &tamTabela);
+    while (tamTabela <= 0 || sizeof(tamTabela) == sizeof(char)) {
+        printf("Tamanho da tabela inválido.\n");
+        getchar();
+        scanf("%ld", &tamTabela);
+    }
+
     struct nodoHash** tabelaHash;
     tabelaHash = gerarTabelaHash(tamTabela);
 
